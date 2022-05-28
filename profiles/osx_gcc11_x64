@@ -1,5 +1,5 @@
-cc_compiler=gcc-10
-cxx_compiler=g++-10
+cc_compiler=gcc-11
+cxx_compiler=g++-11
 
 [env]
 CONAN_CMAKE_FIND_ROOT_PATH=$toolchain
@@ -25,6 +25,5 @@ build_type=Release
 
 [options]
 [env]
-CC=gcc-10
-CXX=g++-10
-
+CC=gcc-11
+CXX=g++-11
